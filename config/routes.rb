@@ -4,4 +4,8 @@ Rails.application.routes.draw do
 
   get "/donations" => "donations#index"
   get "/donations/:id" => "donations#show"
+  post "/donations" => "donations#create"
+  patch "/donations/:id" => "donations#update"
+
+  get "/payment_infos/:id" => "payment_infos#show"
 end

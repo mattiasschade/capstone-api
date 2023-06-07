@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_06_05_193135) do
+ActiveRecord::Schema[7.0].define(version: 2023_06_07_164127) do
   create_table "donations", force: :cascade do |t|
     t.integer "amount"
     t.integer "user_id"
@@ -23,7 +23,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_06_05_193135) do
 
   create_table "payment_infos", force: :cascade do |t|
     t.string "card_number"
-    t.date "expiration"
+    t.string "expiration"
     t.string "cvv"
     t.integer "user_id"
     t.datetime "created_at", null: false
