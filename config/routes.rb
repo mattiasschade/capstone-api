@@ -9,4 +9,6 @@ Rails.application.routes.draw do
 
   get "/payment_infos/:id" => "payment_infos#show"
   post "/payment_infos" => "payment_infos#create"
+
+  get "/users" => "users#show"
 end
