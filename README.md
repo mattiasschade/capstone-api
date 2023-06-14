@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<h1>Tellico Village Volunteer Fire Department Website</h1>
 
-Things you may want to cover:
+<p>For my bootcamp capstone project I decided to redesign the website for the fire department my dad volunteers with. I set out to introduce a more modern design with an emphasis on leading users to the donations page</p>
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<h2>Built With</h2>
+<ul>
+<li>Rails</li>
+<li>React</li>
+<li>Bootstrap</li>
+<li>SQLite3</li>
+</ul>
