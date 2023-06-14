@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   post "/donations" => "donations#create"
   patch "/donations/:id" => "donations#update"
 
-  get "/payment_infos/:id" => "payment_infos#show"
+  get "/payment_infos" => "payment_infos#show"
   post "/payment_infos" => "payment_infos#create"
 
   get "/users" => "users#show"
