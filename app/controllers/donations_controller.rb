@@ -1,12 +1,12 @@
 class DonationsController < ApplicationController
 
   def index
-    @donations = Donation.all
+    @donations = Donation.where(user_id: current_user)
     render :index
   end
 
   def show
-    @donation = Donation.find_by(params[:id])
+    @donation = Donation.where(user_id: current_user).find_by(params[:id])
     render :show
   end
 
